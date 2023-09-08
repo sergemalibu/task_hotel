@@ -1,0 +1,44 @@
+name: task_flutter
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0-325.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  
+  cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  http: ^1.1.0
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  card_swiper: ^3.0.1
+  mask_text_input_formatter: ^2.5.0
+  json_annotation: ^4.8.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+   - lib/assets/Icons/tick-square.png
+   - lib/assets/Icons/emoji-happy.png
+   - lib/assets/Icons/close-square.png
+
+
+
+ 
